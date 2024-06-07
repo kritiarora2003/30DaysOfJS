@@ -1,0 +1,24 @@
+Website cookies are small pieces of data that websites store on your computer or device when you visit them.
+
+Remembering Information: Cookies help websites remember your preferences, login details, and other information so you don’t have to re-enter them every time you visit.
+
+Tracking Activity: Cookies can track your activity on a website, like what pages you visit and what items you add to your cart. This helps websites improve user experience and offer personalized content.
+
+Maintaining Sessions: Cookies keep you logged in while you browse different pages on a site, making sure you don’t have to log in again on each new page.
+
+Analytics: Websites use cookies to collect data about how users interact with the site, which helps them analyze and improve their services.
+
+Website cookies are small text files that are stored on your computer or device by websites you visit
+
+
+The data storage limit of cookies in many web browsers is about 4 KB per cookie.
+
+
+There are two Web Storage objects:
+sessionStorage
+localStorage
+
+localStorage is similar to sessionStorage, except that while data stored in localStorage has no expiration time, data stored in sessionStorage gets cleared when the page session ends — that is, when the page is closed.
+
+storage objects created in Firefox cannot be accessed in Internet Explorer, exactly like cookies.
+
