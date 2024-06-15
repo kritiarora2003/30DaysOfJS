@@ -10,7 +10,7 @@ for (let i = 0; i < allTitles.length; i++) {
     console.log(allTitles[i])
   }
 
-
+console.log('type of getelementbytag '+ typeof(allTitles)) // object
 
 ////////////////////////////////////// NOTES 
 // jab html file me script head me thi tab allTitles.length 0 aa rha tha
@@ -34,6 +34,7 @@ console.log(allTitles.length) // 4
 for (let i = 0; i < allTitles.length; i++) {
   console.log(allTitles[i]) // prints each elements in the HTMLCollection
 }
+console.log('type of getelementbyclass '+ typeof(allTitles))
 
 
 
@@ -47,6 +48,7 @@ firstTitle = document.querySelector('h1') // select the first available h1 eleme
 firstTitle = document.querySelector('#first-title') // select id with first-title
 firstTitle = document.querySelector('.title') // select the first available element with class title
 
+console.log('type of query selector '+ typeof(firstTitle))
 
 
 
@@ -61,6 +63,7 @@ for (let i = 0; i < allTitles.length; i++) {
 allTitles.forEach(title => console.log(title))
 // const allTitles = document.querySelectorAll('.title') 
 
+console.log('type of queryselector all '+ typeof(allTitles))
 
 
 
@@ -96,4 +99,3 @@ titles.forEach((title, i) => {
 
 
 //////////////////////////////////////////////////
-// there
