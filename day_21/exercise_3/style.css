@@ -43,3 +43,64 @@ li {
     padding: 20px;
     margin: 5px;
 }
+
+.author_wrapper {
+    width: 40%;
+    margin: auto;
+}
+
+.author {
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+.socials {
+    padding: 2%;
+}
+
+.bio {
+    padding: 2%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.skills > div {
+    text-align: left;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-bottom: 10%;
+}
+
+.keywords > p {
+    padding: 2%;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.keywords > .keyword_header {
+    width: 100%;
+    text-align: left;
+}
+
+a {
+    color: black;
+}
+
+footer {
+    height: auto;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    background-color: antiquewhite;
+    position:relative;
+    bottom: 0;
+}
